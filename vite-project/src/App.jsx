@@ -12,6 +12,7 @@ import CreatePost from './pages/CreatePost';
 import PostPage from './pages/PostPage';
 import ScrollToTop from "./components/ScrollToTop"
 import Search from "./pages/Search"
+import Footer from './components/Footer'
 // import './App.css'
 import UpdatePost from './pages/UpdatePost';
 
@@ -39,6 +40,7 @@ function App() {
         <Route path='/post/:postSlug' element={<PostPage />} />
 
       </Routes>
+      <Footer/>
     </BrowserRouter>
   )
 }
