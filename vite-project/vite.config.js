@@ -7,7 +7,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://yondro-s-blog.onrender.com',
-        secure: false,
+        secure: true,
       },
     },
   },
